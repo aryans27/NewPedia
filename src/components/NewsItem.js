@@ -11,7 +11,7 @@ export class NewsItem extends Component {
                     <h5 className="card-title">{title}...</h5>
                     <p className="card-text">{description}...   </p>
                     {/* nonreferer is used to resolve warning over opening article into next page */}
-                    <a rel="noreferrer" href={newsUrl} target="_blank" className="btn btn-primary">Read More</a>        
+                    <a rel="noreferrer" href={newsUrl} target="_blank" className="btn btn-dark">Read More</a>        
                 </div>
             </div>
         )
